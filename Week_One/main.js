@@ -96,4 +96,53 @@ else{
         alert("NO es el usuario, intenta de nuevo.");
     }
 
+// Operador Ternario
+let numm = prompt("Ingresa el numero: ");
+let mensaje = (numm % 2 === 0) ? "Es Par" : "Es Impar";
+alert(mensaje); 
+
+// Mensaje Informativo
+console.info("Mensaje Informativo");
+
+// console Warn
+console.warn("Console Warn");
+
+// console Error
+console.error("Console Error");
+
+// console group
+console.group("Console Group");
+
+// console group End
+console.groupEnd("Console Group-End");
+
+// console time - console timeend
+console.time("Console Time");
+console.timeEnd("Console TimeEnd");
+
+
+// Bloque de código
+// Se piden los datos para realizar la operación
+let calculadora1 = prompt("Ingresa el número 1 al cual deseas calcular");
+let calculadora2 = prompt("Ingresa el número 2 al cual deseas calcular");
+
+// Se realizan los cálculos pertinentes
+let sum = calculadora1 + calculadora2
+let restar = calculadora1 - calculadora2
+let multiplica = calculadora1 * calculadora2
+let dividir = calculadora1 / calculadora2
+
+// Se pide y muestra la decision despues de hacer la elección
+let decision = prompt("1. Suma.\n 2. Resta\n 3. multiplicacion \n 4. Division");
+if(decision === 1){
+    print(sum)
+    elseif(decision === 2){
+        print(restar)
+    }
+    elseif(decision === 3)
+        print(multiplica)
+}
+else{
+    print(dividir)
+}
 
