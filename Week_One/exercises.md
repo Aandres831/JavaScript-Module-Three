@@ -1,5 +1,5 @@
 # 1.1 Explica con tus palabras qué es JavaScript y en qué se diferencia de HTML y CSS.
-    Para mí javascript es el lenguaje con el cuál se puede gestionar los diferentes elementos de HTML y CSS, dar vida a los elementos y ayudar en la parte del back usando node.js, para terminar de estructurar la solución.
+Para mí javascript es el lenguaje con el cuál se puede gestionar los diferentes elementos de HTML y CSS, dar vida a los elementos y ayudar en la parte del back usando node.js, para terminar de estructurar la solución.
 # 1.2 Enumera al menos tres características principales de JavaScript.
     ▫️ Es un lenguaje orientado a objetos
     ▫️ Tiene una alta compatibilidad con navegadores
