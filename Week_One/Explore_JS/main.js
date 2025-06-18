@@ -138,7 +138,7 @@ let dividir = calculadora1 / calculadora2
 let decision = prompt("1. Suma.\n 2. Resta\n 3. multiplicacion \n 4. Division");
 // entra en el condicional para realizar la acción deseada por el usuario
 if(decision === 1){
-    alert(sum) //Imprime la suma de los números ingresados
+    alert(sum) //Imprime la suma de los números ingresados     
     elseif(decision === 2);{
         alert(restar)//Imprime la resta de los números ingresados
     }
