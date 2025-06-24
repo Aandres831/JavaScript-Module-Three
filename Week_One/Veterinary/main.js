@@ -30,7 +30,7 @@ const searchByName = () => {
         : console.log(" Pet not found.");
 };
 
-// Function to filter vaccinated pets
+// Function to filter vaccinated pets   
 const filterVaccinated = () => {
     const vaccinatedPets = pets.filter(p => p.vaccinated);
     console.log("Vaccinated pets:");
