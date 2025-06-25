@@ -163,3 +163,52 @@ Usuarios.forEach(usuario => {
     users.innerHTML += `<p > Nombre: ${usuario.nombre}<br> Correo: ${usuario.email} </p> `
 });
 users.innerHTML += `</ul>`
+
+// Libros
+
+let Libros = [
+    libro1 ={
+        titulo: "Mil Años de Cuarentena",
+        autor : "Sun Tzu",
+        año: 2020
+    },
+    libro2 = {
+        titulo: "Cien Años de Compañía",
+        autor : "Manolo Marquez",
+        año: 1956
+    }
+
+]
+
+let books = document.getElementById('books')
+
+books.innerHTML = `<ul>`
+books.innerHTML += `<h1>Libros </h1>`
+
+Libros.forEach(libro => {
+    books.innerHTML += `<p > Titulo: ${libro.titulo}<br> Autor: ${libro.autor} <br> Año: ${libro.año} </p> `
+});
+books.innerHTML += `</ul>`
+
+// lista tareas
+
+
+let tareas = [
+    { descripcion: "Estudiar JavaScript", completada: true },
+    { descripcion: "Hacer ejercicio", completada: false },
+    { descripcion: "Leer un libro", completada: true },
+    { descripcion: "Llamar a mamá", completada: true }
+];
+
+function generarHTMLTarea(tarea) {
+    if (tarea.completada) {
+    return `<p> ✅ ${tarea.descripcion}</p>`;
+    } else {
+    return `<p> ❌ ${tarea.descripcion}</p>`;
+    }
+}
+
+let taskList = document.getElementById("taskList");
+tareas.forEach(tarea => {
+    taskList.innerHTML += generarHTMLTarea(tarea);
+});
