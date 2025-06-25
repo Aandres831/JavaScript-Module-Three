@@ -111,3 +111,55 @@ canciones.forEach(cancion => {
     songs.innerHTML += `<p > Titulo: ${cancion.titulo}<br> Artista: ${cancion.artista} <br> Duración: ${cancion.duracion}</p> `
 });
 songs.innerHTML += `</ul>`
+
+
+//.nombre
+
+
+let Productos = [
+    producto1 ={
+        nombre: "Capuccino",
+        precio : 2050,
+        stock : 25
+    },
+    producto2 = {
+        nombre: "Albaricoque",
+        precio : 1500,
+        stock : 15
+    }
+
+]
+
+let properties = document.getElementById('properties')
+
+properties.innerHTML = `<ul>`
+properties.innerHTML += `<h1>Productos </h1>`
+
+Productos.forEach(producto => {
+    properties.innerHTML += `<p > Nombre: ${producto.nombre}<br> Precio: $${producto.precio} <br> Stock: ${producto.stock}</p> `
+});
+properties.innerHTML += `</ul>`
+
+// array Usuarios
+
+let Usuarios = [
+    usuario1 ={
+        nombre: "Mariano Torres",
+        email : "mariano452@riwi.io"
+    },
+    usuario2 = {
+        nombre: "Manolo Cardona",
+        email : "manolo123@riwi.io"
+    }
+
+]
+
+let users = document.getElementById('users')
+
+users.innerHTML = `<ul>`
+users.innerHTML += `<h1>Usuarios </h1>`
+
+Usuarios.forEach(usuario => {
+    users.innerHTML += `<p > Nombre: ${usuario.nombre}<br> Correo: ${usuario.email} </p> `
+});
+users.innerHTML += `</ul>`
