@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Productos</title>
+    <!-- importar css -->
+    <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <!-- titulo de la página -->
+    <h1>Gestión de Productos</h1>
+
+    <!-- formulario de ingreso de datos del producto -->
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre del producto" required>
+        <input type="number" id="precio" placeholder="Precio" required>
+        <input type="text" id="categoria" placeholder="Categoría" required>
+        <button type="submit">Agregar Producto</button>
+    </form>
+
+
+    <!-- div para mostrar info productos -->
+    <div id="productos"></div>
+<!-- importar js -->
+    <script src="./gestion_datos.js"></script>
+</body>
+</html>
