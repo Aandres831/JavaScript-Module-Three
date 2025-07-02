@@ -1,0 +1,20 @@
+{
+"niñas" : [
+    {
+    "nombre": "Laura Gómez",
+    "edad": 29,
+    "correo": "laura.gomez@example.com",
+    "intereses": ["viajes", "fotografía", "lectura"],
+    "activo": true
+},
+{
+    "nombre": "Mariana Lindaje",
+    "edad": 85,
+    "correo": "laura.iona@example.com",
+    "intereses": ["viajes", "fotografía", "lectura"],
+    "activo": false
+}
+
+]}
+
+
