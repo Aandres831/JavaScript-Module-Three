@@ -1,0 +1,19 @@
+{
+  "productos": [
+    {
+      "nombre": "Chocolate",
+      "precio": 400,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Café",
+      "precio": 4000
+    },
+    {
+      "id": "6a89",
+      "nombre": "Empanada",
+      "precio": 150
+    }
+  ]
+}

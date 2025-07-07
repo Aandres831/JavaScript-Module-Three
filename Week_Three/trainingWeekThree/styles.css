@@ -1,0 +1,130 @@
+/* 🎨 Paleta completamente en verdes */
+:root {
+    --verde-oscuro: #1b4332;
+    --verde-medio: #2d6a4f;
+    --verde-claro: #52b788;
+    --verde-muy-claro: #d8f3dc;
+    --verde-acento: #95d5b2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--verde-muy-claro);
+    color: var(--verde-oscuro);
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título principal con verde medio */
+h1 {
+    text-align: center;
+    color: var(--verde-medio);
+    margin-bottom: 20px;
+    text-shadow: 1px 1px var(--verde-claro);
+    }
+
+/* Subtítulos con borde verde */
+h2 {
+    color: var(--verde-oscuro);
+    border-bottom: 2px solid var(--verde-claro);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Secciones con fondo verde claro */
+section {
+    background-color: var(--verde-acento);
+    border: 1px solid var(--verde-claro);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(27, 67, 50, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+section:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(27, 67, 50, 0.3);
+}
+
+/* Inputs y botones en verde suave */
+input, button {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--verde-claro);
+    background-color: var(--verde-muy-claro);
+    color: var(--verde-oscuro);
+    font-size: 1em;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus, button:focus {
+    outline: none;
+    border-color: var(--verde-medio);
+    box-shadow: 0 0 5px var(--verde-claro);
+}
+
+/* Botón principal con verde medio y hover oscuro */
+button {
+    background-color: var(--verde-medio);
+    color: var(--verde-muy-claro);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--verde-oscuro);
+}
+
+/* Tarjetas de producto con tonos de verde */
+.producto-card {
+    background-color: var(--verde-muy-claro);
+    border: 1px solid var(--verde-claro);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(27, 67, 50, 0.15);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.producto-card:hover {
+    background-color: var(--verde-claro);
+    box-shadow: 0 4px 10px rgba(27, 67, 50, 0.25);
+}
+
+/* Botones dentro de las tarjetas con consistencia verde */
+.producto-card button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    background-color: var(--verde-medio);
+    border: none;
+    border-radius: 6px;
+    color: var(--verde-muy-claro);
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.producto-card button:hover {
+    background-color: var(--verde-oscuro);
+}
+
+/* Mensaje de estado con verde medio */
+#mensaje {
+    text-align: center;
+    margin-top: 10px;
+    color: var(--verde-medio);
+    font-weight: bold;
+}
+
+/* Resultados de búsqueda con verde acento más claro */
+#search-results .producto-card {
+    background-color: var(--verde-acento);
+    border-color: var(--verde-claro);
+}

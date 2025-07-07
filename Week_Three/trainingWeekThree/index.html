@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Productos con Búsqueda</title>
+    <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+    <!-- Título principal -->
+    <h1>Moreci Shop</h1>
+
+    <!-- Formulario para agregar o editar productos -->
+    <section class="form-section">
+        <h2>Ingresa Un Producto</h2>
+        <form id="product-form">
+        <input type="text" id="nombre" placeholder="Nombre del producto" required />
+        <input type="number" id="precio" placeholder="Precio" required />
+        <button type="submit">Guardar Producto</button>
+        </form>
+    </section>
+
+    <!-- Sección para buscar productos por nombre -->
+    <section class="search-section">
+        <h2>🔎 Buscar Producto por Nombre</h2>
+        <input type="text" id="search-nombre" placeholder="Escribe el nombre a buscar" />
+        <button id="search-btn">Buscar</button>
+        <div id="search-results"></div>
+    </section>
+
+    <!-- Lista completa de todos los productos -->
+    <section class="productos-section">
+        <h2>Lista de Todos los Productos</h2>
+        <div id="productos-container"></div>
+    </section>
+
+    <!-- Mensajes de estado -->
+    <p id="mensaje"></p>
+
+    <!-- Script con la lógica -->
+    <script src="./gestion_api.js"></script>
+</body>
+</html>
+
