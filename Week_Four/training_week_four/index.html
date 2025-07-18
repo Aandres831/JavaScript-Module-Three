@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario con Local Storage</title>
+    <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+    <h1>Formulario Interactivo</h1>
+
+    <form id="userForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age" required />
+
+        <button type="submit" id="saveBtn">Guardar Datos</button>
+        <button type="button" id="clearBtn">Limpiar Datos</button>
+    </form>
+
+    <div id="output">
+        <h2>Datos almacenados</h2>
+        <p id="storedData">No hay datos guardados aún.</p>
+    </div>
+
+    <div id="sessionCounter">
+        <h2>Contador de Interacciones en esta sesión</h2>
+        <p>Interacciones: <span id="counter">0</span></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
